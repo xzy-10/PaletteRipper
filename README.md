@@ -1,5 +1,5 @@
 # PaletteRipper
- A Python program I wrote as practice with Pillow.
+ A Python 3 program I wrote as practice with the Pillow library.
 
 ### Usage
 
