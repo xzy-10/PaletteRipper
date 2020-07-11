@@ -1,7 +1,9 @@
 # PaletteRipper
  A Python 3 program I wrote as practice with the Pillow library.
 
-### Usage
+PaletteRipper is a script which analyses an image and outputs a colour palette from it. The quality of the colour palette as well as the number of colours are dependent on the individual parameters given.
+
+## Usage
 
 ________
 
@@ -25,3 +27,30 @@ NUMBER --> The maximum number of colours to put in the new image. Note that this
 INPUTFILE --> The name of the picture to extract the colour palette from.
 
 OUTPUTFILE --> The name of the picture where the colour palette will be placed. Please save as PNG to avoid compression.
+
+## Examples
+
+___
+
+Original Image: 
+
+![denis-degioanni-9wH624ALFQA-unsplash](images/denis-degioanni-9wH624ALFQA-unsplash.jpg)
+
+Photo by [Denis Degioanni](https://unsplash.com/@denisdegioanni?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/milky-way?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+
+Full set with highest quality (QUALITY = 1) sorted:
+
+![fullset1](images/fullset1.png)
+
+Full set with QUALITY = 5 sorted:
+
+![fullset5](images/fullset5.png)
+
+Full set with highest quality (QUALITY = 1) unsorted:
+
+![fullset1unsorted](images/fullset1unsorted.png)
+
+Simplified Set with 15 colours (each colour is one pixel in size):
+
+<img src="images/simplifiedset15.png" alt="simplifiedset15"/>
+
