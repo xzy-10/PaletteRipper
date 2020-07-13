@@ -1,5 +1,5 @@
 # PaletteRipper
- A Python 3 program I wrote to practice with the Pillow library.
+ A Python 3 program I wrote to practise with the Pillow library.
 
 PaletteRipper is a script which analyses an image and outputs a colour palette from it. The quality of the colour palette as well as the number of colours are dependent on the individual parameters given.
 
